@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="8" tilewidth="32" tileheight="32" nextobjectid="26">
+ <tileset firstgid="1" name="ground5" tilewidth="32" tileheight="32">
+  <image source="ground5.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="generic_platformer_tiles" tilewidth="32" tileheight="32">
+  <image source="generic_platformer_tiles.png" width="1024" height="768"/>
+  <tile id="51">
+   <properties>
+    <property name="end" value=""/>
+   </properties>
+  </tile>
+  <tile id="420">
+   <properties>
+    <property name="water" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="32" height="8">
+  <data encoding="base64" compression="zlib">
+   eJzli7kNgEAMBBcXRoT4CuGry6VdIWzOCQ0RSFiawJ5xSsqX6UMazGgmMwdzxJNm8b6azezmCOaIp83XaBupPPR3PzXX6ToJb8TVGtL/aU6Ml10x
+  </data>
+ </layer>
+ <objectgroup name="Crystals">
+  <object id="1" x="46" y="118">
+   <ellipse/>
+  </object>
+  <object id="2" x="111" y="110">
+   <ellipse/>
+  </object>
+  <object id="3" x="181" y="110">
+   <ellipse/>
+  </object>
+  <object id="4" x="262" y="110">
+   <ellipse/>
+  </object>
+  <object id="5" x="330" y="108">
+   <ellipse/>
+  </object>
+  <object id="6" x="394" y="110">
+   <ellipse/>
+  </object>
+  <object id="7" x="460" y="111">
+   <ellipse/>
+  </object>
+  <object id="8" x="529" y="109">
+   <ellipse/>
+  </object>
+  <object id="9" x="590" y="110">
+   <ellipse/>
+  </object>
+  <object id="10" x="650" y="110">
+   <ellipse/>
+  </object>
+  <object id="11" x="748" y="110">
+   <ellipse/>
+  </object>
+  <object id="12" x="842" y="92">
+   <ellipse/>
+  </object>
+  <object id="13" x="926" y="110">
+   <ellipse/>
+  </object>
+  <object id="14" x="986" y="111">
+   <ellipse/>
+  </object>
+  <object id="25" x="46" y="117">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <layer name="Water" width="32" height="8">
+  <properties>
+   <property name="kill" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUwMBWRuLEiJHDpoaQ+qtY5LGJESOHTQ26egCtwwe9
+  </data>
+ </layer>
+ <layer name="Ground" width="32" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DgACsQswExOxBzECFGjHpsapDZyHKcQMwFxNxAzAOVxydGjHpsapDZyHK8QMwHxPxALACVxydGjHpsapDZyHIAHm4DWA==
+  </data>
+ </layer>
+</map>

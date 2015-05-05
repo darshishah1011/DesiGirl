@@ -1,0 +1,13 @@
+{
+  playerPositionX: 50,
+  playerPositionY: 50,
+  numCoinsCollected: 0,
+  camPositionX: 160,
+  camPositionY: 120,
+  hudCamPositionX: 0,
+  hudCamPositionY: 0,
+  box2DCamX: 1.6,
+  box2DCamY: 1.2,
+  tiledMapX: 0,
+  tiledMapY: 0
+}

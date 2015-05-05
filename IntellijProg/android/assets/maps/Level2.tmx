@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="8" tilewidth="32" tileheight="32" nextobjectid="30">
+ <tileset firstgid="1" name="ground5" tilewidth="32" tileheight="32">
+  <image source="ground6.png" width="128" height="128"/>
+  <tile id="7">
+   <properties>
+    <property name="sensor" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="17" name="generic_platformer_tiles" tilewidth="32" tileheight="32">
+  <image source="generic_platformer_tiles.png" width="1024" height="768"/>
+ </tileset>
+ <layer name="Ground" width="32" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DgABsQswMxB5F8VgrEIhghmAFJnAuIuYGYB6qGEJ+TAjFk+2HifEDMD8QCUDWE+LwUiGFjAwAQAQRs
+  </data>
+ </layer>
+ <layer name="Background" width="32" height="8">
+  <data encoding="base64" compression="zlib">
+   eJzbysDAsHWA8UUgvgTElwdI/iMQfwLiz0D8ZQDkByOWpIMdZgyoYCuJfHLFsMmPVAAAczV6LQ==
+  </data>
+ </layer>
+ <layer name="Water" width="32" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4AwCGTEL29BH2fQFGxlJI1Prhg2eRC4ykgan1wxZDYAJ4sLXw==
+  </data>
+ </layer>
+ <objectgroup name="Crystals">
+  <object id="1" x="48" y="85" width="21" height="22">
+   <ellipse/>
+  </object>
+  <object id="2" x="144" y="92" width="25" height="26">
+   <ellipse/>
+  </object>
+  <object id="3" x="362" y="89" width="27" height="25">
+   <ellipse/>
+  </object>
+  <object id="4" x="432" y="103" width="21" height="24">
+   <ellipse/>
+  </object>
+  <object id="7" x="495" y="95" width="29" height="32">
+   <ellipse/>
+  </object>
+  <object id="8" x="634" y="94" width="28" height="29">
+   <ellipse/>
+  </object>
+  <object id="9" x="249" y="86" width="25" height="28">
+   <ellipse/>
+  </object>
+  <object id="11" x="710" y="88" width="28" height="27">
+   <ellipse/>
+  </object>
+  <object id="12" x="787" y="88" width="27" height="29">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Enemies">
+  <object id="15" x="168" y="127" width="34" height="31">
+   <ellipse/>
+  </object>
+  <object id="16" x="439" y="128" width="34" height="34">
+   <ellipse/>
+  </object>
+  <object id="17" x="755" y="130" width="35" height="29">
+   <ellipse/>
+  </object>
+  <object id="29" x="886" y="95" width="43" height="129">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
